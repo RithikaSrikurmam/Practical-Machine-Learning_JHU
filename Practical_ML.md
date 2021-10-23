@@ -132,7 +132,7 @@ mod_trees <- train(classe~., data=train, method="rpart", trControl = control, tu
 fancyRpartPlot(mod_trees$finalModel)
 ```
 
-![plot of chunk unnamed-chunk-7](figure/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-7](https://github.com/RithikaSrikurmam/Practical-Machine-Learning_JHU/blob/main/unnamed-chunk-7-1.png)
  Prediction:
 
 ```r
@@ -329,23 +329,23 @@ corrPlot <- cor(train[, -length(names(train))])
 corrplot(corrPlot, method="color")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13-1.png)
+![plot of chunk unnamed-chunk-13](https://github.com/RithikaSrikurmam/Practical-Machine-Learning_JHU/blob/main/unnamed-chunk-13-1.png)
 2.Plotting the models
 
 ```r
 plot(mod_trees)
 ```
 
-![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14-1.png)
+![plot of chunk unnamed-chunk-14](https://github.com/RithikaSrikurmam/Practical-Machine-Learning_JHU/blob/main/unnamed-chunk-14-1.png)
 
 ```r
 plot(mod_rf)
 ```
 
-![plot of chunk unnamed-chunk-15](figure/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-15](https://github.com/RithikaSrikurmam/Practical-Machine-Learning_JHU/blob/main/unnamed-chunk-15-1.png)
 
 ```r
 plot(mod_gbm)
 ```
 
-![plot of chunk unnamed-chunk-16](figure/unnamed-chunk-16-1.png)
+![plot of chunk unnamed-chunk-16](https://github.com/RithikaSrikurmam/Practical-Machine-Learning_JHU/blob/main/unnamed-chunk-16-1.png)
