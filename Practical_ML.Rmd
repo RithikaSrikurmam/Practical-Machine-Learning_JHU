@@ -1,6 +1,6 @@
 ---
 title: "Predict activity quality from activity monitors"
-author: "Rithika S"
+author: "Rithika"
 date: "23/10/2021"
 output: html_document
 ---
